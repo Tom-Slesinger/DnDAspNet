@@ -1,5 +1,5 @@
 const moveable = new Moveable(document.body, {
-    target: document.getElementById("root"), // Use getElementById instead of querySelector for ID selection
+    target: document.getElementById("moveItem"), // Use getElementById instead of querySelector for ID selection
     draggable: true,
 });
 
