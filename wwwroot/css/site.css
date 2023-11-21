@@ -16,3 +16,17 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.moveWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 50vh;
+    margin: 0;
+}
+
+.moveItem {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+}
