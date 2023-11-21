@@ -23,7 +23,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Moveable">Moveable Example</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Konva">Konva Example</a>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +48,10 @@
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/custommoveable.js" asp-append-version="true"></script>
+    <script src="~/js/moveablecustom.js" asp-append-version="true"></script>
+    <script src="~/js/konvacustom.js" asp-append-version="true"></script>
+    <script src="//daybrush.com/moveable/release/latest/dist/moveable.min.js"></script>
+    <script src="https://unpkg.com/konva@9/konva.min.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
